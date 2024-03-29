@@ -1,0 +1,151 @@
+@font-face {
+  font-family: "GothamBlack";
+  src: url("../assets/font/GothamBlack.eot");
+  src: url("../assets/font/GothamBlack.eot") format("embedded-opentype"),
+    url("../assets/font/GothamBlack.woff2") format("woff2"),
+    url("../assets/font/GothamBlack.woff") format("woff"),
+    url("../assets/font/GothamBlack.ttf") format("truetype"),
+    url("../assets/font/GothamBlack.svg#GothamBlack") format("svg");
+}
+@font-face {
+  font-family: "GothamBold";
+  src: url("../assets/font/GothamBold.eot");
+  src: url("../assets/font/GothamBold.eot") format("embedded-opentype"),
+    url("../assets/font/GothamBold.woff2") format("woff2"),
+    url("../assets/font/GothamBold.woff") format("woff"),
+    url("../assets/font/GothamBold.ttf") format("truetype"),
+    url("../assets/font/GothamBold.svg#GothamBold") format("svg");
+}
+@font-face {
+  font-family: "GothamBoldItalic";
+  src: url("../assets/font/GothamBoldItalic.eot");
+  src: url("../assets/font/GothamBoldItalic.eot") format("embedded-opentype"),
+    url("../assets/font/GothamBoldItalic.woff2") format("woff2"),
+    url("../assets/font/GothamBoldItalic.woff") format("woff"),
+    url("../assets/font/GothamBoldItalic.ttf") format("truetype"),
+    url("../assets/font/GothamBoldItalic.svg#GothamBoldItalic") format("svg");
+}
+@font-face {
+  font-family: "GothamBook";
+  src: url("../assets/font/GothamBook.eot");
+  src: url("../assets/font/GothamBook.eot") format("embedded-opentype"),
+    url("../assets/font/GothamBook.woff2") format("woff2"),
+    url("../assets/font/GothamBook.woff") format("woff"),
+    url("../assets/font/GothamBook.ttf") format("truetype"),
+    url("../assets/font/GothamBook.svg#GothamBook") format("svg");
+}
+@font-face {
+  font-family: "GothamLight";
+  src: url("../assets/font/GothamLight.eot");
+  src: url("../assets/font/GothamLight.eot") format("embedded-opentype"),
+    url("../assets/font/GothamLight.woff2") format("woff2"),
+    url("../assets/font/GothamLight.woff") format("woff"),
+    url("../assets/font/GothamLight.ttf") format("truetype"),
+    url("../assets/font/GothamLight.svg#GothamLight") format("svg");
+}
+@font-face {
+  font-family: "GothamLightItalic";
+  src: url("../assets/font/GothamLightItalic.eot");
+  src: url("../assets/font/GothamLightItalic.eot") format("embedded-opentype"),
+    url("../assets/font/GothamLightItalic.woff2") format("woff2"),
+    url("../assets/font/GothamLightItalic.woff") format("woff"),
+    url("../assets/font/GothamLightItalic.ttf") format("truetype"),
+    url("../assets/font/GothamLightItalic.svg#GothamLightItalic") format("svg");
+}
+@font-face {
+  font-family: "GothamMedium_1";
+  src: url("../assets/font/GothamMedium_1.eot");
+  src: url("../assets/font/GothamMedium_1.eot") format("embedded-opentype"),
+    url("../assets/font/GothamMedium_1.woff2") format("woff2"),
+    url("../assets/font/GothamMedium_1.woff") format("woff"),
+    url("../assets/font/GothamMedium_1.ttf") format("truetype"),
+    url("../assets/font/GothamMedium_1.svg#GothamMedium_1") format("svg");
+}
+@font-face {
+  font-family: "GothamMediumItalic";
+  src: url("../assets/font/GothamMediumItalic.eot");
+  src: url("../assets/font/GothamMediumItalic.eot") format("embedded-opentype"),
+    url("../assets/font/GothamMediumItalic.woff2") format("woff2"),
+    url("../assets/font/GothamMediumItalic.woff") format("woff"),
+    url("../assets/font/GothamMediumItalic.ttf") format("truetype"),
+    url("../assets/font/GothamMediumItalic.svg#GothamMediumItalic")
+      format("svg");
+}
+@font-face {
+  font-family: "GothamThin";
+  src: url("../assets/font/GothamThin.eot");
+  src: url("../assets/font/GothamThin.eot") format("embedded-opentype"),
+    url("../assets/font/GothamThin.woff2") format("woff2"),
+    url("../assets/font/GothamThin.woff") format("woff"),
+    url("../assets/font/GothamThin.ttf") format("truetype"),
+    url("../assets/font/GothamThin.svg#GothamThin") format("svg");
+}
+@font-face {
+  font-family: "GothamThinItalic";
+  src: url("../assets/font/GothamThinItalic.eot");
+  src: url("../assets/font/GothamThinItalic.eot") format("embedded-opentype"),
+    url("../assets/font/GothamThinItalic.woff2") format("woff2"),
+    url("../assets/font/GothamThinItalic.woff") format("woff"),
+    url("../assets/font/GothamThinItalic.ttf") format("truetype"),
+    url("../assets/font/GothamThinItalic.svg#GothamThinItalic") format("svg");
+}
+@font-face {
+  font-family: "GothamUltraItalic";
+  src: url("../assets/font/GothamUltraItalic.eot");
+  src: url("../assets/font/GothamUltraItalic.eot") format("embedded-opentype"),
+    url("../assets/font/GothamUltraItalic.woff2") format("woff2"),
+    url("../assets/font/GothamUltraItalic.woff") format("woff"),
+    url("../assets/font/GothamUltraItalic.ttf") format("truetype"),
+    url("../assets/font/GothamUltraItalic.svg#GothamUltraItalic") format("svg");
+}
+@font-face {
+  font-family: "GothamXLight";
+  src: url("../assets/font/GothamXLight.eot");
+  src: url("../assets/font/GothamXLight.eot") format("embedded-opentype"),
+    url("../assets/font/GothamXLight.woff2") format("woff2"),
+    url("../assets/font/GothamXLight.woff") format("woff"),
+    url("../assets/font/GothamXLight.ttf") format("truetype"),
+    url("../assets/font/GothamXLight.svg#GothamXLight") format("svg");
+}
+@font-face {
+  font-family: "GothamXLightItalic";
+  src: url("../assets/font/GothamXLightItalic.eot");
+  src: url("../assets/font/GothamXLightItalic.eot") format("embedded-opentype"),
+    url("../assets/font/GothamXLightItalic.woff2") format("woff2"),
+    url("../assets/font/GothamXLightItalic.woff") format("woff"),
+    url("../assets/font/GothamXLightItalic.ttf") format("truetype"),
+    url("../assets/font/GothamXLightItalic.svg#GothamXLightItalic")
+      format("svg");
+}
+@font-face {
+  font-family: "MetropolisBoldItalic";
+  src: url("../assets/font/MetropolisBoldItalic.eot");
+  src: url("../assets/font/MetropolisBoldItalic.eot")
+      format("embedded-opentype"),
+    url("../assets/font/MetropolisBoldItalic.woff2") format("woff2"),
+    url("../assets/font/MetropolisBoldItalic.woff") format("woff"),
+    url("../assets/font/MetropolisBoldItalic.ttf") format("truetype"),
+    url("../assets/font/MetropolisBoldItalic.svg#MetropolisBoldItalic")
+      format("svg");
+}
+@font-face {
+  font-family: "MetropolisExtraBold";
+  src: url("../assets/font/MetropolisExtraBold.eot");
+  src: url("../assets/font/MetropolisExtraBold.eot") format("embedded-opentype"),
+    url("../assets/font/MetropolisExtraBold.woff2") format("woff2"),
+    url("../assets/font/MetropolisExtraBold.woff") format("woff"),
+    url("../assets/font/MetropolisExtraBold.ttf") format("truetype"),
+    url("../assets/font/MetropolisExtraBold.svg#MetropolisExtraBold")
+      format("svg");
+}
+@font-face {
+  font-family: "MetropolisExtraBoldItalic";
+  src: url("../assets/font/MetropolisExtraBoldItalic.eot");
+  src: url("../assets/font/MetropolisExtraBoldItalic.eot")
+      format("embedded-opentype"),
+    url("../assets/font/MetropolisExtraBoldItalic.woff2") format("woff2"),
+    url("../assets/font/MetropolisExtraBoldItalic.woff") format("woff"),
+    url("../assets/font/MetropolisExtraBoldItalic.ttf") format("truetype"),
+    url("../assets/font/MetropolisExtraBoldItalic.svg#MetropolisExtraBoldItalic")
+      format("svg");
+}

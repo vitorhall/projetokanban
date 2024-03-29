@@ -1,0 +1,45 @@
+@use "../../styles/variaveis.scss";
+.card-custom {
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 6px, rgba(0, 0, 0, 0.12) 0px 3px 6px;
+  .title-custom {
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+  }
+  .box-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+
+    .btn-custom {
+      min-width: 100px;
+      border-radius: 5px;
+      border: none;
+      padding: 10px;
+    }
+    .btn-edit {
+      background: variaveis.$orange;
+      color: variaveis.$white;
+      font-weight: 700;
+      &:hover {
+        background: none;
+        border: solid 1px variaveis.$orange;
+        color: variaveis.$black;
+      }
+    }
+    .btn-remove {
+      background: variaveis.$white;
+      border: 1px solid variaveis.$redError;
+      color: variaveis.$redError;
+      font-weight: 700;
+      &:hover {
+        background: variaveis.$redError;
+        color: variaveis.$white;
+      }
+    }
+  }
+  .text-color {
+    color: variaveis.$black;
+  }
+}

@@ -1,0 +1,7 @@
+@use "../../styles/variaveis.scss";
+
+.visualisar-text {
+  color: variaveis.$white;
+  border: 1px solid variaveis.$orange;
+  padding: 5px;
+}

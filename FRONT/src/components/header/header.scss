@@ -1,0 +1,20 @@
+@use "../../styles/fonts.scss";
+@use "../../styles/variaveis.scss";
+.content-header {
+  background: variaveis.$black;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+
+  .box-title {
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      font-family: "MetropolisExtraBoldItalic", Arial, Helvetica, sans-serif;
+      color: variaveis.$orange;
+      margin-bottom: 0;
+    }
+  }
+}

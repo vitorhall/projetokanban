@@ -1,0 +1,7 @@
+@use "../../styles/variaveis.scss";
+
+.main-content {
+  background-color: variaveis.$darkBgLight;
+  height: auto;
+  min-height: 100vh;
+}

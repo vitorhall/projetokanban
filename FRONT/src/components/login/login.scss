@@ -1,0 +1,44 @@
+@use "../../styles/variaveis.scss";
+
+.login-content {
+  align-items: center;
+  background-color: variaveis.$orange;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+
+  .login-box {
+    width: 360px;
+  }
+
+  @media (max-width: 576px) {
+    .login-box {
+      margin-top: 0.5rem;
+      width: 90%;
+    }
+  }
+
+  .login_text_color {
+    color: variaveis.$white;
+  }
+
+  .card-bg {
+    background-color: variaveis.$darkBgLight !important;
+  }
+
+  .card-outline-orange {
+    border-top: 3px solid variaveis.$white !important;
+  }
+
+  .btn-register {
+    border: 1px solid variaveis.$orange;
+    border-radius: 5px;
+    color: variaveis.$orange;
+    font-weight: 700;
+    &:hover {
+      background: variaveis.$orange;
+      border: 1px solid variaveis.$white;
+    }
+  }
+}
