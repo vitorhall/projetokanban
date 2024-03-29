@@ -46,8 +46,8 @@ O front foi desenvolvido em React + VITE. Nele foram implementados os seguintes 
 
 ## Prints das telas:
 
-![Tela de login](https://github.com/roofranklin/react_trello/raw/main/tela-login.png)
-![Tela de login](https://github.com/roofranklin/react_trello/raw/main/tela-board.png)
+![Tela de login](https://github.com/vitorhall/projetokanban/blob/main/login.jpg)
+![Tela de login](https://github.com/vitorhall/projetokanban/blob/main/kanban.jpg)
 
 ## To-Do
 
